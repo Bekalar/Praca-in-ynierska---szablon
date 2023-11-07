@@ -1,0 +1,64 @@
+body {
+    background-color: #1D1D1D;
+}
+
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+    display: block;
+}
+
+@media screen and (max-width: 1200px) {
+    .dropdown-menu .dropdown-submenu {
+        display: none;
+    }
+
+    .dropdown-menu>li:hover>.dropdown-submenu {
+        display: block;
+        position: static;
+    }
+}
+
+
+
+.card {
+    width: 400px;
+    border: none;
+}
+
+.btr {
+    border-top-right-radius: 5px !important;
+}
+
+
+.btl {
+    border-top-left-radius: 5px !important;
+}
+
+.nav-pills {
+    display: table !important;
+    width: 100%;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+    border-bottom: 1px solid #0d6efd40;
+}
+
+.nav-item {
+    display: table-cell;
+}
+
+.form input:focus {
+    box-shadow: none;
+}
