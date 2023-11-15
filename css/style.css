@@ -2,35 +2,6 @@ body {
     background-color: #1D1D1D;
 }
 
-.dropdown-menu .dropdown-submenu {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: -7px;
-}
-
-.dropdown-menu .dropdown-submenu-left {
-    right: 100%;
-    left: auto;
-}
-
-.dropdown-menu>li:hover>.dropdown-submenu {
-    display: block;
-}
-
-@media screen and (max-width: 1200px) {
-    .dropdown-menu .dropdown-submenu {
-        display: none;
-    }
-
-    .dropdown-menu>li:hover>.dropdown-submenu {
-        display: block;
-        position: static;
-    }
-}
-
-
-
 .card {
     width: 400px;
     border: none;
